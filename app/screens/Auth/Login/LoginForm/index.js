@@ -67,7 +67,7 @@ class LoginForm extends Component {
           returnKeyType="done"
           handleAccessoryPress={this.onAccessoryPress}
         />
-        <Button dark loading={loading} mode="contained" handlePress={this.onSubmit}>
+        <Button dark mode="contained" handlePress={this.onSubmit}>
           Login
         </Button>
       </View>
